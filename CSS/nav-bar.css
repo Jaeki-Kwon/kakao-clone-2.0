@@ -1,0 +1,19 @@
+.nav {
+  /* nav를 sticky하게 만들기 위해 사용 */
+  /* position: fixed;를 사용시 반드시 width 설정!! */
+  position: fixed;
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 20px 50px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav i {
+  font-size: 20px;
+}

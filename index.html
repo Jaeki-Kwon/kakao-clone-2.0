@@ -7,7 +7,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
       rel="stylesheet"
     />
-    <link href="CSS/styles.css" rel="stylesheet">
+    <link href="CSS/styles.css" rel="stylesheet" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
@@ -43,27 +43,30 @@
     </header>
     <!-- 브라우저 상에서 이 부분이 메인이다고 지정되는 부분 -->
     <main class="chats">
-        <ul class="chats__list">
+      <ul class="chats__list">
+        <li class="chats__chat chat">
           <a href="chat.html">
-            <li class="chats__chat chat">
-                <div class="chat__column">
-                    <!-- 폴더명, 사진명, Format 이름은 무조건 소문자! -->
-                    <img class="chat__avatar g-avatar" src="image/jaeki.jpg"
-                    <div class="chat__content">
-                        <span class="chat__username">
-                            Jae Ki
-                        </span>
-                        <span class="chat__preview">
-                            Going Home
-                        </span>
-                    </div>
+            <div class="chats__chat friend friend--large">
+              <div class="friend__column">
+                <img src="image/jaeki.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    권재기
+                  </span>
+                  <span class="friend__bottom-text">
+                    배가 고프군
+                  </span>
                 </div>
-                <div class="chat__column">
-                    <span class="chat__timestamp">Yesterday</span>
-                </div>
-            </li>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  March 8
+                </span>
+              </div>
+            </div>
           </a>
-        </ul>
+        </li>
+      </ul>
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -74,6 +77,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>

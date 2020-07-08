@@ -3,6 +3,7 @@
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
 
 * {
   box-sizing: border-box;
@@ -19,4 +20,5 @@ body {
 a {
   /* 링크 색깔이 클릭해도 부모요소의 색깔과 똑같이 검은색으로 적용 */
   color: inherit;
+  text-decoration: none;
 }

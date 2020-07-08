@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "styles-btn.css";
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  /* 링크 색깔이 클릭해도 부모요소의 색깔과 똑같이 검은색으로 적용 */
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  background-color: #f8f7ff;
+  height: 640px;
+  width: 340px;
+}
+
+.main {
+  background-color: #fcfcfe;
+  margin: 8px 30px 33px 20px;
+  padding: 8px 30px 33px 15px;
+  width: 300px;
+  height: 600px;
+  border-radius: 50px;
+  box-shadow: 10px 60px 100px #c8ccd8;
+}
+
+.main__inside {
+  width: 270px;
+  height: 570px;
+  border-radius: 50px;
+  background-color: #f8f8f8;
+}
+
+.main__top {
+  position: relative;
+}
+.main__top-signin {
+  font-weight: 700;
+  top: 30px;
+  left: 40%;
+  position: absolute;
+}
+
+.main__write {
+  position: relative;
+}
+.main__write-email {
+  width: 240px;
+  height: 33px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  top: 124px;
+  left: 7%;
+  font-size: 13px;
+  color: #c5c5c5;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  position: absolute;
+}
+
+.main__write-password {
+  width: 240px;
+  height: 33px;
+  background-color: white;
+  border: none;
+  top: 176px;
+  left: 7%;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #c5c5c5;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  position: absolute;
+}
+
+.main__write-right {
+  color: red;
+  font-size: 10px;
+  top: 225px;
+  right: 5px;
+  position: absolute;
+}
+
+.main__check-write {
+  top: 250px;
+  left: 7%;
+  position: absolute;
+}
+
+.main__write-left {
+  font-size: 13px;
+  padding: 5px;
+}

@@ -1,0 +1,76 @@
+.header {
+  position: relative;
+}
+.header .header__icon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.header__icon i {
+  font-size: 20px;
+}
+
+.header__picture-luffy,
+.header__picture-zoro,
+.header__picture-ace {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.header__picture-luffy {
+  top: 255px;
+  right: 180px;
+  position: absolute;
+}
+
+.header__picture-zoro {
+  top: 255px;
+  right: 120px;
+  position: absolute;
+}
+
+.header__picture-ace {
+  top: 255px;
+  right: 60px;
+  position: absolute;
+}
+
+.header__picture-add {
+  display: inline-block;
+  padding: 17px;
+  top: 255px;
+  right: 0;
+  border-radius: 15px;
+  background-color: dodgerblue;
+  color: #e9e8f1;
+  font-weight: 700;
+  position: absolute;
+}
+
+.header .header__speech-buble {
+  position: relative;
+}
+.header__speech-buble .speech-buble__name {
+  padding: 6px;
+  background-color: #e9e8f1;
+  color: dodgerblue;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 20px 20px 20px 0px;
+  position: absolute;
+}
+
+.speech-buble__name:nth-child(1) {
+  top: 265px;
+}
+.speech-buble__name:nth-child(2) {
+  top: 265px;
+  left: 60px;
+}
+.speech-buble__name:nth-child(3) {
+  top: 265px;
+  left: 140px;
+}

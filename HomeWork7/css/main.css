@@ -1,0 +1,110 @@
+.screen {
+  position: relative;
+}
+.main .main__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 310px;
+}
+
+.main__subject {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main__top .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__top i {
+  color: red;
+}
+
+.main__locate {
+  margin-top: 10px;
+}
+
+.main__locate i {
+  margin-right: 10px;
+}
+
+.main__locate .locate__name {
+  font-size: 20px;
+  color: #f2f4f7;
+}
+
+.main__rating {
+  margin-top: 15px;
+}
+
+.main__rating i {
+  color: yellow;
+}
+
+.main__rating-number {
+  font-size: 20px;
+  color: #f2f4f7;
+  right: 30px;
+  position: absolute;
+}
+
+.main__story {
+  margin-top: 15px;
+}
+
+.main__story .main__story-overview {
+  font-size: 15px;
+  font-weight: 600;
+  color: #f2f4f7;
+  display: block;
+}
+
+.main__story .main__story-content {
+  font-size: 18px;
+  display: block;
+  padding-top: 10px;
+  line-height: 130%;
+}
+
+.main__story-readmore {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 8px;
+  color: dodgerblue;
+}
+
+.main__bottom .main__bottom-circle {
+  width: 60px;
+  height: 60px;
+  left: 40%;
+  bottom: 70%;
+  border-radius: 50%;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.main__bottom i {
+  font-size: 20px;
+  color: white;
+}
+
+.main__bottom .semicircle {
+  width: 80px;
+  height: 40px;
+  left: 37.5%;
+  bottom: 100%;
+  border-radius: 40px 40px 0px 0px;
+  background-color: #eff0f5;
+  position: absolute;
+}

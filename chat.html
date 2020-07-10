@@ -10,7 +10,7 @@
     <link href="CSS/styles.css" rel="stylesheet" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <!-- "-"는 word를 나누기 위해 사용 -->
     <!-- "__"는 부모 자식을 나누기 위해 사용 -->
     <div class="status-bar">
@@ -41,7 +41,7 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">
           Friday, January 11, 2020
@@ -54,9 +54,8 @@
               Congrats I love you!
             </div>
           </div>
-          <span class="message__timestamp"> </span>
         </li>
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="message__content">
             <div class="message__bubble">

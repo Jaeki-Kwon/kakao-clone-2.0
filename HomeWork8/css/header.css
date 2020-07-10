@@ -1,0 +1,95 @@
+.header {
+  margin: 30px 10px 20px 10px;
+}
+
+.header .header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__top i {
+  color: #7d7c7c;
+}
+
+.header__top span {
+  font-weight: 600;
+  color: #898989;
+}
+
+.header .header__content {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__content .content__left {
+  color: #5a5b5a;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.header__content .content__right {
+  color: red;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.header__photo1 {
+  width: 120px;
+  height: 75px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-image: url("../image/homecooking.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__photo2 {
+  width: 120px;
+  height: 75px;
+  border-radius: 10px;
+  background-image: url("../image/dessertcooking.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__photo3 {
+  width: 120px;
+  height: 75px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-image: url("../image/babecooking.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__photo4 {
+  width: 120px;
+  height: 75px;
+  border-radius: 10px;
+  background-image: url("../image/fruitjuice.jpg");
+  background-size: cover;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__photo__top {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 10px;
+  display: flex;
+}
+
+.header__photo__down {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 10px;
+  display: flex;
+}

@@ -1,0 +1,18 @@
+.header {
+  margin-top: 20px;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  color: #edefee;
+}
+
+.header__top i {
+  font-size: 20px;
+}
+
+.header__top span {
+  font-size: 14px;
+  font-weight: 600;
+}

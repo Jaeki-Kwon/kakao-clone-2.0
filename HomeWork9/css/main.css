@@ -1,0 +1,90 @@
+.main {
+  margin-top: 145px;
+}
+
+.main__profile-picture img {
+  width: 60px;
+  height: 60px;
+  margin-left: 92px;
+  border-radius: 50px;
+  margin-bottom: 13px;
+}
+
+.main__profile-name .name__luffy {
+  margin-left: 60px;
+  font-size: 25px;
+  font-weight: 700;
+  color: dodgerblue;
+}
+
+.main__profile-name {
+  margin-bottom: 13px;
+}
+
+.main__profile-location .location__luffy {
+  margin-left: 75px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #d6dfe6;
+}
+
+.main__btn {
+  margin-top: 20px;
+}
+
+.btn__left {
+  width: 120px;
+  height: 45px;
+  border-radius: 10px;
+  color: grey;
+  font-size: 16px;
+  border: none;
+}
+
+.btn__right {
+  right: 20px;
+  width: 120px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2698f9;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+}
+
+.btn__left:focus {
+  outline: none;
+}
+
+.btn__right:focus {
+  outline: none;
+}
+
+.main__information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #d6dfe6;
+}
+
+.follower__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.following__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.image__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}

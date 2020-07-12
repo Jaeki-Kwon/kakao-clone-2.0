@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import "reset.css";
+@import "top.css";
+@import "bottom.css";
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  /* 링크 색깔이 클릭해도 부모요소의 색깔과 똑같이 검은색으로 적용 */
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  /* display: flex;
+  justify-content: center; */
+  display: block;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.top {
+  margin-top: 40px;
+  width: 270px;
+  height: 200px;
+  background-color: #019d90;
+  position: relative;
+}
+
+.image-camera {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  top: 25%;
+  left: 30%;
+  position: absolute;
+}
+
+.top__hover {
+  margin: 10px;
+  width: 270px;
+  height: 200px;
+  padding-bottom: 30px;
+  opacity: 0;
+  background-color: #28394a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.information-name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.information-name {
+  color: white;
+  padding-left: 25px;
+}
+
+.information-made {
+  color: #ea4666;
+  font-size: 12px;
+}
+
+.hover__btn {
+  top: 65%;
+  position: absolute;
+}
+
+.btn__name {
+  height: 30px;
+  color: white;
+  font-weight: 700;
+  background-color: #ea4666;
+  border: none;
+}
+
+.btn__name:focus {
+  outline: none;
+}
+
+@keyframes background {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.top__hover:hover {
+  animation: background 1s ease-in-out forwards;
+}

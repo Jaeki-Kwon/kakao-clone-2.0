@@ -9,6 +9,10 @@
     0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 
+.chats {
+  margin-top: 100px;
+}
+
 .chats-body {
   padding: 10px 0px;
   padding-top: 100px;

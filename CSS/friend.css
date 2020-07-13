@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.friends__header {
+  margin-top: 100px;
+}
+
 .friend .friend__avatar {
   width: 50px;
   border-radius: 37%;

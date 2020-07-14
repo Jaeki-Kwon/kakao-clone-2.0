@@ -21,6 +21,11 @@
   width: 60px;
 }
 
+.friend--large .friend__avatar,
+.friends__plus .friend__avatar {
+  height: 50px;
+}
+
 .friend .friend__column {
   display: flex;
   align-items: center;
@@ -58,4 +63,8 @@
   background-color: #f5f5f5;
   padding: 10px 15px;
   border-radius: 5px;
+}
+
+.friend--large {
+  margin-bottom: 20px;
 }

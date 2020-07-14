@@ -4,11 +4,12 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #fce006;
+  background-image: url("../image/onepiece/background.jpg");
+  background-size: 100% 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-weight: 700;
   color: white;
   font-size: 28px;
   text-align: center;
@@ -16,6 +17,10 @@
   padding: 0px 20px;
   display: none;
   z-index: 4;
+}
+
+.bigScreen span {
+  padding-top: 20px;
 }
 
 @media screen and (min-width: 550px) {

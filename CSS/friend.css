@@ -13,6 +13,10 @@
   border-radius: 37%;
 }
 
+.friend__avatar.f-avatar {
+  height: 50px;
+}
+
 .friend__avatar.g-avatar {
   width: 70px;
 }
@@ -21,9 +25,15 @@
   width: 60px;
 }
 
-.friend--large .friend__avatar,
+/* .friend--large .friend__avatar,
 .friends__plus .friend__avatar {
   height: 50px;
+} */
+
+.friend--large .friend__avatars {
+  width: 70px;
+  border-radius: 37%;
+  margin-right: 15px;
 }
 
 .friend .friend__column {

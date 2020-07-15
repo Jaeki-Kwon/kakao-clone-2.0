@@ -12,7 +12,8 @@
 
 .header .header__icon {
   font-size: 20px;
-  margin-left: 20px;
+  margin: 0px 20px;
+
   /* 링크가 있는 부분에는 커서가 화살표 모양이 되어야하기 때문 */
   cursor: pointer;
 }

@@ -13,6 +13,13 @@
   border-radius: 37%;
 }
 
+.girlfriend__avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 37%;
+  margin-right: 15px;
+}
+
 .friend__avatar.f-avatar {
   height: 50px;
 }
@@ -21,8 +28,49 @@
   width: 70px;
 }
 
+.friend__column-group {
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.group-friend__avatar:nth-child(1) {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.group-friend__avatar:nth-child(2) {
+  position: absolute;
+  top: 2px;
+  right: 0;
+}
+
+.group-friend__avatar:nth-child(3) {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+}
+
+.group-friend__avatar:nth-child(4) {
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+}
+
+.group-friend__avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 37%;
+}
+
 .friend__avatar.m-avatar {
   width: 60px;
+  height: 60px;
 }
 
 /* .friend--large .friend__avatar,
@@ -76,5 +124,5 @@
 }
 
 .friend--large {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }

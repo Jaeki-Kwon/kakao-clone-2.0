@@ -11,209 +11,214 @@
     <title>Find | Kakao Clone</title>
   </head>
   <body>
-    <!-- "-"는 word를 나누기 위해 사용 -->
-    <!-- "__"는 부모 자식을 나누기 위해 사용 -->
-    <div class="status-wrapper">
-      <div class="status-bar">
-        <div class="status-bar__column">
-          <span class="status-bar__clock">13:54</span>
+    <div class="background">
+      <!-- "-"는 word를 나누기 위해 사용 -->
+      <!-- "__"는 부모 자식을 나누기 위해 사용 -->
+      <div class="status-wrapper">
+        <div class="status-bar">
+          <div class="status-bar__column">
+            <span class="status-bar__clock">13:54</span>
+          </div>
+          <div class="status-bar__column">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
+          </div>
         </div>
-        <div class="status-bar__column">
-          <i class="fas fa-clock"></i>
-          <i class="fas fa-volume-mute"></i>
-          <i class="fas fa-wifi"></i>
-          <span class="status-bar__battery-level">100%</span>
-          <i class="fas fa-battery-full"></i>
-        </div>
+        <header class="header">
+          <div class="header__header-column">
+            <h1 class="header__title">Find</h1>
+          </div>
+          <div class="header__header-column">
+            <span class="header__icon">
+              <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+              <i class="fas fa-cog"></i>
+            </span>
+          </div>
+        </header>
       </div>
-      <header class="header">
-        <div class="header__header-column">
-          <h1 class="header__title">Find</h1>
-        </div>
-        <div class="header__header-column">
-          <span class="header__icon">
-            <i class="fas fa-search"></i>
-          </span>
-          <span class="header__icon">
-            <i class="fas fa-cog"></i>
-          </span>
-        </div>
-      </header>
-    </div>
-    <main class="find">
-      <header class="find__header">
-        <ul class="find__header-list">
-          <li class="find__header-btn header-btn">
-            <span class="header-btn__icon">
-              <i class="fas fa-qrcode fa-2x"></i>
-            </span>
-            <span class="header-btn__title">
-              QR Code
-            </span>
+      <main class="find">
+        <header class="find__header">
+          <ul class="find__header-list">
+            <li class="find__header-btn header-btn">
+              <span class="header-btn__icon">
+                <i class="fas fa-qrcode fa-2x"></i>
+              </span>
+              <span class="header-btn__title">
+                QR Code
+              </span>
+            </li>
+            <li class="find__header-btn header-btn">
+              <span class="header-btn__icon">
+                <i class="fas fa-user-plus fa-2x"></i>
+              </span>
+              <span class="header-btn__title">
+                Add by Contacts
+              </span>
+            </li>
+            <li class="find__header-btn header-btn">
+              <span class="header-btn__icon">
+                <i class="fas fa-passport fa-2x"></i>
+              </span>
+              <span class="header-btn__title">
+                Add by ID
+              </span>
+            </li>
+            <li class="find__header-btn header-btn">
+              <span class="header-btn__icon">
+                <i class="far fa-envelope fa-2x"></i>
+              </span>
+              <span class="header-btn__title">
+                Invite
+              </span>
+            </li>
+          </ul>
+        </header>
+        <ul class="find__recommended">
+          <h5 class="find__title">
+            Recommended Friends
+          </h5>
+          <li class="find__friend friend friend--large">
+            <div class="friend__column">
+              <img
+                src="image/onepiece/roger2.png"
+                class="f-avatar friend__avatar"
+              />
+              <div class="friend__content">
+                <span class="friend__name">
+                  골 D.로저
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <div class="friend__add-btn">
+                <i class="fas fa-user-plus"></i>
+              </div>
+            </div>
           </li>
-          <li class="find__header-btn header-btn">
-            <span class="header-btn__icon">
-              <i class="fas fa-user-plus fa-2x"></i>
-            </span>
-            <span class="header-btn__title">
-              Add by Contacts
-            </span>
+          <li class="find__friend friend friend--large">
+            <div class="friend__column">
+              <img
+                src="image/onepiece/ace.jpg"
+                class="f-avatar friend__avatar"
+              />
+              <div class="friend__content">
+                <span class="friend__name">
+                  포트거스 D. 에이스
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <div class="friend__add-btn">
+                <i class="fas fa-user-plus"></i>
+              </div>
+            </div>
           </li>
-          <li class="find__header-btn header-btn">
-            <span class="header-btn__icon">
-              <i class="fas fa-passport fa-2x"></i>
-            </span>
-            <span class="header-btn__title">
-              Add by ID
-            </span>
+          <li class="find__friend friend friend--large">
+            <div class="friend__column">
+              <img
+                src="image/onepiece/sabo.png"
+                class="f-avatar friend__avatar"
+              />
+              <div class="friend__content">
+                <span class="friend__name">
+                  사보
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <div class="friend__add-btn">
+                <i class="fas fa-user-plus"></i>
+              </div>
+            </div>
           </li>
-          <li class="find__header-btn header-btn">
-            <span class="header-btn__icon">
-              <i class="far fa-envelope fa-2x"></i>
-            </span>
-            <span class="header-btn__title">
-              Invite
-            </span>
+          <li class="find__friend friend friend--large">
+            <div class="friend__column">
+              <img
+                src="image/onepiece/gaap.png"
+                class="f-avatar friend__avatar"
+              />
+              <div class="friend__content">
+                <span class="friend__name">
+                  몽키.D.거프
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <div class="friend__add-btn">
+                <i class="fas fa-user-plus"></i>
+              </div>
+            </div>
+          </li>
+          <li class="find__friend friend friend--large">
+            <div class="friend__column">
+              <img
+                src="image/onepiece/shanks.jpg"
+                class="f-avatar friend__avatar"
+              />
+              <div class="friend__content">
+                <span class="friend__name">
+                  샹크스
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <div class="friend__add-btn">
+                <i class="fas fa-user-plus"></i>
+              </div>
+            </div>
+          </li>
+          <li class="find__friend friend friend--large">
+            <div class="friend__column">
+              <img
+                src="image/onepiece/buggy.jpg"
+                class="f-avatar friend__avatar"
+              />
+              <div class="friend__content">
+                <span class="friend__name">
+                  버기
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <div class="friend__add-btn">
+                <i class="fas fa-user-plus"></i>
+              </div>
+            </div>
           </li>
         </ul>
-      </header>
-      <ul class="find__recommended">
-        <h5 class="find__title">
-          Recommended Friends
-        </h5>
-        <li class="find__friend friend friend--large">
-          <div class="friend__column">
-            <img
-              src="image/onepiece/roger2.png"
-              class="f-avatar friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                골 D.로저
-              </span>
-            </div>
-          </div>
-          <div class="friend__column">
-            <div class="friend__add-btn">
-              <i class="fas fa-user-plus"></i>
-            </div>
-          </div>
-        </li>
-        <li class="find__friend friend friend--large">
-          <div class="friend__column">
-            <img src="image/onepiece/ace.jpg" class="f-avatar friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                포트거스 D. 에이스
-              </span>
-            </div>
-          </div>
-          <div class="friend__column">
-            <div class="friend__add-btn">
-              <i class="fas fa-user-plus"></i>
-            </div>
-          </div>
-        </li>
-        <li class="find__friend friend friend--large">
-          <div class="friend__column">
-            <img
-              src="image/onepiece/sabo.png"
-              class="f-avatar friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                사보
-              </span>
-            </div>
-          </div>
-          <div class="friend__column">
-            <div class="friend__add-btn">
-              <i class="fas fa-user-plus"></i>
-            </div>
-          </div>
-        </li>
-        <li class="find__friend friend friend--large">
-          <div class="friend__column">
-            <img
-              src="image/onepiece/gaap.png"
-              class="f-avatar friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                몽키.D.거프
-              </span>
-            </div>
-          </div>
-          <div class="friend__column">
-            <div class="friend__add-btn">
-              <i class="fas fa-user-plus"></i>
-            </div>
-          </div>
-        </li>
-        <li class="find__friend friend friend--large">
-          <div class="friend__column">
-            <img
-              src="image/onepiece/shanks.jpg"
-              class="f-avatar friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                샹크스
-              </span>
-            </div>
-          </div>
-          <div class="friend__column">
-            <div class="friend__add-btn">
-              <i class="fas fa-user-plus"></i>
-            </div>
-          </div>
-        </li>
-        <li class="find__friend friend friend--large">
-          <div class="friend__column">
-            <img
-              src="image/onepiece/buggy.jpg"
-              class="f-avatar friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                버기
-              </span>
-            </div>
-          </div>
-          <div class="friend__column">
-            <div class="friend__add-btn">
-              <i class="fas fa-user-plus"></i>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </main>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__list-item">
-          <a href="friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="index.html" class="nav__list-link">
-            <i class="far fa-comment"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="find.html" class="nav__list-link">
-            <i class="fas fa-search"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="more.html" class="nav__list-link">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div class="bigScreen">
-      <span class="bigScreen__text">Please make your screen small</span>
+      </main>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="friends.html" class="nav__list-link">
+              <i class="far fa-user"></i>
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="index.html" class="nav__list-link">
+              <i class="far fa-comment"></i>
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="find.html" class="nav__list-link">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="more.html" class="nav__list-link">
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small</span>
+      </div>
     </div>
   </body>
 </html>
